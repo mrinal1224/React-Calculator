@@ -1,18 +1,17 @@
-import {Container} from "@material-ui/core"
-import { OutlinedInput , ButtonGroup , Button } from '@material-ui/core';
-import AddIcon from '@material-ui/icons/Add';
-import RemoveIcon from '@material-ui/icons/Remove';
-import ClearIcon from '@material-ui/icons/Clear';
 
 
 
-import React from 'react'
+
+
 
 const container = () => {
+
+    
+    
     return (
         <div>
             <Container style={{ backgroundColor: '#262626', height: '100vh' , width:'40vw' }}>
-                  <OutlinedInput color='secondary' style={{width:"100%" , backgroundColor:'white' , height:'15%'}}/>
+                  <OutlinedInput value={0} color='secondary' style={{width:"100%" , backgroundColor:'white' , height:'15%'}}/>
                   
                   <ButtonGroup size='large' fullWidth={true} style={{backgroundColor:"orange" , marginTop:"20%"}}>
                       <Button>1</Button>
